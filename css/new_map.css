@@ -1,0 +1,165 @@
+	* {
+				margin: 0;
+				padding: 0;
+			}
+			/*維修車輛*/
+			
+			.bike_fix {
+				width: 52px;
+				height: 52px;
+				background: url(../images/img/fix.png) no-repeat 0 0;
+			}
+			
+			.bike_fix div {
+				height: 52px;
+				text-align: center;
+				line-height: 58px;
+				font-size: 12px;
+			}
+			.bike_wallet {
+				position: relative;
+				width: 62px;
+				height:62px;
+				background:url(../images/img/wallet.png) no-repeat 0 0;
+				background-position: center;
+				background-size:50px 50px;
+			}
+			
+			.bike_wallet div {
+				position: absolute;
+				bottom: 0;
+				text-align:center;
+				font-size: 12px;
+				width: 62px;
+			}
+			/*漏電車輛*/
+			
+			.bike_ld {
+				width: 52px;
+				height: 52px;
+				background: url(../images/img/ld.png) no-repeat 0 0;
+			}
+			
+			.bike_ld div {
+				height: 52px;
+				text-align: center;
+				line-height: 58px;
+				font-size: 12px;
+			}
+			/*呆滞车辆*/
+			
+			.bike_dz {
+				width: 52px;
+				height: 52px;
+				background: url(../images/img/dz.png) no-repeat 0 0;
+			}
+			
+			.bike_dz div {
+				height: 52px;
+				text-align: center;
+				line-height: 58px;
+				font-size: 12px;
+			}
+			/* ========== */
+			/* = 低电量车辆 = */
+			/* ========== */
+			
+			.bike_lowp {
+				width: 52px;
+				height: 52px;
+				background: url(../images/img/lowp.png) no-repeat 0 0;
+			}
+			
+			.bike_lowp div {
+				height: 52px;
+				text-align: center;
+				line-height: 58px;
+				font-size: 12px;
+			}
+			/* ========== */
+			/* = 骑行车辆 = */
+			/* ========== */
+			
+			.bike_qx {
+				width: 52px;
+				height: 52px;
+				background: url(../images/img/qx.png) no-repeat 0 0;
+			}
+			
+			.bike_qx div {
+				height: 52px;
+				text-align: center;
+				line-height: 58px;
+				font-size: 12px;
+			}
+			/* ========== */
+			/* = 震动车辆 = */
+			/* ========== */
+			
+			.bike_zd {
+				width: 52px;
+				height: 52px;
+				background: url(../images/img/zd.png) no-repeat 0 0;
+			}
+			
+			.bike_zd div {
+				height: 52px;
+				text-align: center;
+				line-height: 58px;
+				font-size: 12px;
+			}
+			/* ========== */
+			/* = 空闲车辆 = */
+			/* ========== */
+			
+			.bike_wait {
+				width: 52px;
+				height: 52px;
+				background: url(../images/img/wait.png) no-repeat 0 0;
+			}
+			.bike_search{
+				z-index: 100;
+				position: absolute;
+				left:6px;
+				bottom:30px;
+				width:55px;
+				height:55px;
+				background:url(../images/img/search_bike.png) no-repeat 0 0;
+				background-size:90% 90%;
+				background-color:#FFFFFF;
+				border-radius:50%;
+			}
+			
+			.bike_wait div {
+				height: 52px;
+				text-align: center;
+				line-height: 58px;
+				font-size: 12px;
+			}
+			
+			.bike_sum{
+				z-index: 100;
+				position: absolute;
+				left: 0;
+				top:0;
+			}
+		    .bike_sum div{
+		    	margin:5px;
+		    }
+		    a{
+		      cursor: pointer ;
+		    }
+         .uselist{
+         	    width: 100%;
+				color: #999999;
+				font-size:12px;
+			}
+			
+		 	td{
+		 	
+		 		height: 30px;
+		 		line-height: 30px;
+			    border: none;
+				text-align: center;
+				width:120px;
+			}
